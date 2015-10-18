@@ -12,7 +12,7 @@ public class JoinDemo {
 		final Thread h1 = new Thread(new Runnable() {
 
 			@Override
-			public void run() {
+			public void run() {//..
 				
 				System.err.println(Thread.currentThread().getName()+"执行");
 			}
